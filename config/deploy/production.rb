@@ -1,7 +1,5 @@
-server "133.167.121.197",
-  user: "deploy",
-  roles: %w{web db app},
-  ssh_options: {
+server "133.167.121.197", user: "deploy", roles: %w{web db app}
+set :ssh_options, {
     user: "deploy",
     port: 10022,
     keys: %w(~/.ssh/id_rsa),
