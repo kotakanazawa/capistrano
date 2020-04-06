@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root "memos#index"
+  resources :memos
   resources :users
-  root "users#index"
 end
