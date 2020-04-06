@@ -46,6 +46,7 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-puma' # デプロイ時にpumaを起動できるようにする
+  gem 'capistrano-faster-assets' # 本番環境のassetsに変化がない時、assets:precompileを飛ばす
 end
 
 group :test do
