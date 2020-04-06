@@ -46,7 +46,6 @@ group :development do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano3-puma' # デプロイ時にpumaを起動できるようにする
-  # gem "capistrano-faster-assets"
 end
 
 group :test do
