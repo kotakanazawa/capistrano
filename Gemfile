@@ -43,6 +43,10 @@ group :development do
   gem 'capistrano'
   gem 'capistrano-safe-deploy-to'
   gem 'capistrano-rbenv'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rails'
+  gem 'capistrano3-puma' # デプロイ時にpumaを起動できるようにする
+  # gem "capistrano-faster-assets"
 end
 
 group :test do
